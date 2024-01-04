@@ -22,7 +22,7 @@
               <h5 class="card-title fw-bold text-primary">Formulir Investasi Awal</h5>
             </div>
             <div class="card-body p-4">
-              <form onsubmit="event.preventDefault(); total();">
+              <form>
                 <div class="mb-3">
                   <label for="totalInvestasi" class="form-label fw-bold">Total Investasi :</label>
                   <input type="number" class="form-control" id="totalInvestasi" placeholder="Masukkan total investasi" required />
@@ -35,7 +35,7 @@
                   <label class="form-label fw-bold" for="waktu">Waktu (tahun):</label>
                   <input class="form-control" type="number" id="waktu" placeholder="Masukkan waktu" required /><br />
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" onclick="total()" class="btn btn-primary">Submit</button>
               </form>
             </div>
           </div>
